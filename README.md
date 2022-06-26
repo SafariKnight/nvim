@@ -5,11 +5,15 @@ If you want to use this please follow the instructions [here](https://github.com
 # OPTIONAL REQUIREMENTS
 
 [vim-hexokinase](https://github.com/RRethy/vim-hexokinase)
-CMake  ([Download here](https://cmake.org/download/))
-Golang ([Download here](https://golang.org/doc/install/))
+
+- CMake  ([Download here](https://cmake.org/download/))
+
+- Golang ([Download here](https://golang.org/doc/install/))
 
 
-#### Commands/Explanation to enable vim-hexokinase (If you won't use it I recommend disabling it in lua/user/plugins.lua because it will keep bothering you)
+#### Commands/Explanation to enable vim-hexokinase
+
+(If you won't use it I recommend disabling it in lua/user/plugins.lua because it will keep bothering you)
 
 ```bash
 cd ~/.local/share/nvim/site/pack/packer/start/vim-hexokinase/
@@ -18,4 +22,5 @@ make install
 
 ## Explanation
 1: Go to ~/.local/share/nvim/site/pack/packer/start/vim-hexokinase/
+
 2: Install it by running `make install`
