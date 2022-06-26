@@ -10,6 +10,7 @@ local servers = {
   "tsserver",
   "jsonls",
   "emmet_ls",
+  "marksman"
 }
 
 
