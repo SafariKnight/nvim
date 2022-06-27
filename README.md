@@ -6,7 +6,7 @@ If you want to use this please follow the instructions [here](https://github.com
 
 [vim-hexokinase](https://github.com/RRethy/vim-hexokinase)
 
-- CMake  ([Download here](https://cmake.org/download/))
+- Make  (Use your package manager)
 
 - Golang ([Download here](https://golang.org/doc/install/))
 
