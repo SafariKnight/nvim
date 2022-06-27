@@ -19,11 +19,9 @@ null_ls.setup {
     },
     formatting.stylua,
     -- Linters
-    diagnostics.eslint,
+    -- diagnostics.eslint,
   },
 }
-
-
 
 
 -- How to enable formatting/diagnostics
