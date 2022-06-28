@@ -73,7 +73,7 @@ M.on_attach = function(client, bufnr)
 
 	local disable_formatter = { "html", "sumneko_lua", "tsserver" }
 	for _, disable in pairs(disable_formatter) do
-		if disable == disable_formatter then
+		if client.name == disable then
 			client.resolved_capabilities.document_formatting = false
 		end
 	end

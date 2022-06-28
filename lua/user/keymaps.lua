@@ -3,7 +3,23 @@ local keymap = vim.keymap.set
 -- Silent keymap option
 local opts = { silent = true }
 
---Remap space as leader key
+-- Enable which-key
+local which_ok, which_key = pcall(require, "which-key")
+if not which_ok then
+  return
+end
+
+which_key.setup {
+  key_labels = {
+    ["<leader>"] = "SPACE",
+    ["<cr>"] = "ENTER",
+    ["<tab>"] = "TAB",
+  },
+}
+
+local wkmap = which_key.register
+
+-- Remap space as leader key
 keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 
