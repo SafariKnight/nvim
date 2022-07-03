@@ -21,6 +21,6 @@ make install
 ```
 
 ## Explanation
-1: Go to ~/.local/share/nvim/site/pack/packer/start/vim-hexokinase/
+1: Go to ~/.local/share/nvim/site/pack/packer/start/vim-hexokinase/ (Install directory of vim-hexokinase)
 
 2: Install it by running `make install`
