@@ -58,18 +58,18 @@ local function lsp_keymaps(bufnr)
 		i = { "<cmd>lua vim.lsp.buf.implementation()<CR>", "Implementation" },
 		r = { "<cmd>lua vim.lsp.buf.references()<CR>", "References" },
 		l = { "<cmd>lua vim.diagnostic.open_float()<CR>", "Float" },
-    f = { "<cmd>lua vim.lsp.buf.formatting()<cr>", "Format"},
-    I = {
-      name = "Util",
-      i = { "<cmd>LspInfo<cr>", "Status"},
-      I = { "<cmd>LspInstallInfo<cr>", "Installer"},
-    },
-    a = { "<cmd>lua vim.lsp.buf.code_action()<cr>", "Actions" },
-    j = { "<cmd>lua vim.diagnostic.goto_next({buffer=0})<cr>", "Next" },
-    k = { "<cmd>lua vim.diagnostic.goto_prev({buffer=0})<cr>", "Previous"},
-    R = { "<cmd>lua vim.lsp.buf.rename()<cr>", "Rename"},
-    s = { "<cmd>lua vim.lsp.buf.signature_help()<CR>", "Signature"},
-    q = { "<cmd>lua vim.diagnostic.setloclist()<CR>", "SetLocList"},
+		f = { "<cmd>lua vim.lsp.buf.formatting()<cr>", "Format" },
+		I = {
+			name = "Util",
+			i = { "<cmd>LspInfo<cr>", "Status" },
+			I = { "<cmd>LspInstallInfo<cr>", "Installer" },
+		},
+		a = { "<cmd>lua vim.lsp.buf.code_action()<cr>", "Actions" },
+		j = { "<cmd>lua vim.diagnostic.goto_next({buffer=0})<cr>", "Next" },
+		k = { "<cmd>lua vim.diagnostic.goto_prev({buffer=0})<cr>", "Previous" },
+		R = { "<cmd>lua vim.lsp.buf.rename()<cr>", "Rename" },
+		s = { "<cmd>lua vim.lsp.buf.signature_help()<CR>", "Signature" },
+		q = { "<cmd>lua vim.diagnostic.setloclist()<CR>", "SetLocList" },
 	}, leaderNormal)
 end
 

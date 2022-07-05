@@ -11,7 +11,8 @@ local servers = {
   "jsonls",
   "emmet_ls",
   "marksman",
-  "vimls"
+  "vimls",
+  "omnisharp",
 }
 
 

@@ -21,3 +21,9 @@ require("user.alpha")
 require("user.lsp")
 require("user.dap")
 require("user.which-key")
+
+-- Neovide config
+vim.cmd([[
+  let g:neovide_cursor_vfx_mode = "ripple"
+  let g:neovide_transparency = 0.95
+]])

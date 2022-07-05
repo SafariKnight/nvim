@@ -37,6 +37,11 @@ keymap("n", "<S-h>", ":bprevious<CR>", opts)
 -- Close buffers
 keymap("n", "<S-q>", "<cmd>Bdelete!<CR>", opts)
 
+keymap("n", "<leader>l", "$", opts)
+keymap("n", "<leader>h", "0", opts)
+-- keymap("o", "<leader>l", "$", opts)
+-- keymap("o", "<leader>h", "0", opts)
+
 -- Better paste
 keymap("v", "p", '"_dP', opts)
 
